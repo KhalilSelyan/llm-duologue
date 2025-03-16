@@ -78,7 +78,7 @@ async function startConversation() {
   console.log("\n🔄 Starting conversation between Luna and Jaxon...\n");
   console.log(`📝 Topic: ${topic.split("\n")[0]}...\n`);
 
-  const chat = converse(luna, jaxon, topic, { maxTurns: 10 });
+  const chat = converse(luna, jaxon, topic, { maxTurns: CONFIG.maxTurns });
 
   for await (const part of chat) {
     process.stdout.write(part);
