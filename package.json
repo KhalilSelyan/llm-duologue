@@ -23,15 +23,15 @@
   "description": "Real-time conversation simulator between two AI participants, each defined by a name, description, and LLM model.",
   "type": "module",
   "devDependencies": {
-    "@eslint/js": "^9.16.0",
-    "@types/node": "^22.10.2",
-    "eslint": "^9.16.0",
+    "@eslint/js": "^9.22.0",
+    "@types/node": "^22.13.10",
+    "eslint": "^9.22.0",
     "eslint-config-prettier": "^9.1.0",
-    "globals": "^15.13.0",
-    "prettier": "^3.4.2",
-    "typescript": "^5.7.2"
+    "globals": "^15.15.0",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.2"
   },
   "dependencies": {
-    "ollama": "^0.5.11"
+    "ollama": "^0.5.14"
   }
 }

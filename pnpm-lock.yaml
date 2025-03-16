@@ -9,29 +9,29 @@ importers:
   .:
     dependencies:
       ollama:
-        specifier: ^0.5.11
+        specifier: ^0.5.14
         version: 0.5.14
     devDependencies:
       '@eslint/js':
-        specifier: ^9.16.0
+        specifier: ^9.22.0
         version: 9.22.0
       '@types/node':
-        specifier: ^22.10.2
+        specifier: ^22.13.10
         version: 22.13.10
       eslint:
-        specifier: ^9.16.0
+        specifier: ^9.22.0
         version: 9.22.0
       eslint-config-prettier:
         specifier: ^9.1.0
         version: 9.1.0(eslint@9.22.0)
       globals:
-        specifier: ^15.13.0
+        specifier: ^15.15.0
         version: 15.15.0
       prettier:
-        specifier: ^3.4.2
+        specifier: ^3.5.3
         version: 3.5.3
       typescript:
-        specifier: ^5.7.2
+        specifier: ^5.8.2
         version: 5.8.2
 
 packages:
